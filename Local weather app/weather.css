@@ -1,0 +1,17 @@
+body {
+  padding: 60px;
+	background-color: #dd3333;
+	color: white;
+	font-family: 'Arial', Monospace;
+}
+#title{
+	font-size: 3em;
+}
+.location, #temp, #condition {
+	font-size: 2.2em;
+	color: #white;
+}
+#thumbnail {
+	height: 100px;
+	width: 100px;
+}
