@@ -1,0 +1,59 @@
+body  {
+  font-family: 'play', sans-serif; 
+  background: #222;
+  color: #999;
+}
+
+.container {
+  width: 80%;
+  max-width: 500px;
+  min-width: 250px;
+  margin: 30px auto;
+}
+
+h1 {
+  margin-top: 20%;
+  text-align: center;
+  color: #ccc;
+}
+
+.row {
+  overflow: hidden;
+}
+
+.col-half {
+  width: 50%;
+  float: left;
+}
+
+.knob-wrapper {
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.button-mute {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  width: 75px;
+  margin: 3px;
+  padding: 6px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-green {
+  color: #6c6;
+  border: 2px solid #6c6;
+}
+
+.btn-green:hover{
+  background-color: #332;
+}
