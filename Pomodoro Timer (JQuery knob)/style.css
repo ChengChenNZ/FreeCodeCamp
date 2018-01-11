@@ -57,3 +57,21 @@ h1 {
 .btn-green:hover{
   background-color: #332;
 }
+
+.btn-yellow {
+  color: #CC6;
+  border: 2px solid #CC6;
+}
+
+.btn-yellow:hover {
+  background-color: #332;
+}
+
+.btn-red {
+  color: #C66;
+  border: 2px solid #C66;
+}
+
+.btn-red:hover {
+  background-color: #322;
+}
