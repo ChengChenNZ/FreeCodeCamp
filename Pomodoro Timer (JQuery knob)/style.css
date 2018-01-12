@@ -75,3 +75,19 @@ h1 {
 .btn-red:hover {
   background-color: #322;
 }
+
+.btn-mute {
+  width: 20px;
+  margin: 4px;
+  padding: 2px;
+  color: #999;
+  font-size: 16px;
+}
+
+.btn-mute:hover {
+  color: #BBB;
+}
+
+.hidden {
+  display: none;
+}
