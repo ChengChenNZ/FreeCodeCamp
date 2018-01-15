@@ -1,31 +1,40 @@
-<div class ="container">
-  <div class="header">
-    <h1>Pomodoro Timer</h1>    
-  </div>
-  <div class = "timer knob-wrapper">
-    <input type = "text" value ="1500" size = "5" id = "timer-display"></input>
-  </div>
-  <div class = "row">
-    <div class = "col-half knob-wrapper">
-      <h5>Work</h5>
-      <input type = "text" value = "25" size = "5" id = "session-knob"></input>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF_8">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black">
+    <link rel="stylesheet" type = "text/css" href = "style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
+    <script src="js/jquery.knob.js"></script>
+  </head>
+  <body>
+    <div class ="container">
+      <div class="header">
+        <h1>Pomodoro Timer</h1>
+      </div>
+      <div class = "timer knob-wrapper">
+        <input type = "text" value ="1500" size = "5" id = "timer-display"></input>
+      </div>
+      <div class = "row">
+        <div class = "col-half knob-wrapper">
+          <h5>Work</h5>
+          <input type = "text" value = "25" size = "5" id = "session-knob"></input>
+        </div>
+        <div class = "col-half knob-wrapper">
+          <h5>Break</h5>
+          <input type + "text" value = "5" size = "5" id = "break-knob"></input>
+        </div>
+      </div>
+      <div class = "buttons">
+        <a id ="cmd-reset" class = "btn btn-red"><i class = "fa fa-undo"> Reset</i></a>
+        <a id ="cmd-pause" class = "btn btn-yellow hidden"><i class ="fa fa-pause"></i> Pause</a>
+        <a id ="cmd-go" class = "btn btn-green"><i class = "fa fa-play"></i></a>
+      </div>
     </div>
-    <div class = "col-half knob-wrapper">
-      <h5>Break</h5>
-      <input type + "text" value = "5" size = "5" id = "break-knob"></input>
-    </div>
-  </div>
-  <div class = "buttons">
-    <a id ="cmd-reset" class = "btn btn-red"><i class = "fa fa-undo"> Reset</i></a>
-    <a id ="cmd-pause" class = "btn btn-yellow hidden"><i class ="fa fa-pause"></i> Pause</a>
-    <a id ="cmd-go" class = "btn btn-green"><i class = "fa fa-play"></i></a>
-  </div>
-  <div class = "button-mute">
-    <a id = "cmd-mute" class = "btn btn-mute"><i class = "fa fa-volume-up"></i></a>
-    <a id = "cmd-unmute" class = "btn btn-mute hidden"><i class = "fa fa-volume-off"></i></a>
-  </div>
 
-  <div class = "timer knob-wrapper">
-    <input type = "text" value = "1500" size = "5" id = "timer-display"/>
-  </div>
-</div>
+    <script type = "text/javascript" href = "script.js"></script>
+
+  </body>
+</html>

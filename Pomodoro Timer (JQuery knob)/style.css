@@ -1,7 +1,7 @@
 body  {
-  font-family: 'play', sans-serif; 
-  background: #222;
-  color: #999;
+  font-family: 'Archivo Black', sans-serif;
+  background: #191919;
+  color: #e2e0e0;
 }
 
 .container {
@@ -35,16 +35,11 @@ h1 {
   margin-bottom: 15px;
 }
 
-.button-mute {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
 .btn {
   display: inline-block;
   width: 75px;
-  margin: 3px;
-  padding: 6px;
+  margin: 5px;
+  padding: 0.1px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -74,18 +69,6 @@ h1 {
 
 .btn-red:hover {
   background-color: #322;
-}
-
-.btn-mute {
-  width: 20px;
-  margin: 4px;
-  padding: 2px;
-  color: #999;
-  font-size: 16px;
-}
-
-.btn-mute:hover {
-  color: #BBB;
 }
 
 .hidden {
