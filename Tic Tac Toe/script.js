@@ -58,6 +58,48 @@ function gameOver(gameWon){
 	}
 	for (var i = 0; i < cells.length; i++) {
 		cells[i].removeEventListener('click', turnClick, false);
+  }
+  declareWinner(gameWon.playre == huPlayer ? "You win" : "You lose") 
+}
 
+function declareWinner(Who){
+  document.querySelector(".endgame").style.display = "block";
+  document.querySelector(".endgame.text").innerText = who;
+}
+
+function emptySquares(){
+  return origBoard.filter(s => Typeof s == 'number');
+}
+
+function bestSpot(){
+  return minmax(origBoard, aiPlayer).index;
+}
+
+function checkTie(){
+  if(emptySquares().length == 0){
+    for (var i = 0; i < cells.length; i++){
+      cell[i].style.backgroundColor = "green";
+      cell[i].removeEventListener('click', turnClick, false);
+    }
+    declareWinner("Tie Game")
+    return true;
+  }
+  return false;
+}
+
+
+function minmax(newBoard, player){
+  var availspots = emptySquares(newBoard);
+  
+  if (checkWin(newBoard, huPlayer)) {
+      return {score: -10};
+  } else if (checkWin(newBoard, aiPlayer)) {
+      return {score: 10};
+  } else if (availspots.length === 0){
+      return {score: 0};
+  }
+  var moves = [];
+  for (var i = 0; i < availspots.length; i++) {
+    Things[i]
   }
 }
