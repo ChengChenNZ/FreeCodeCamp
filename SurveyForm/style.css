@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html,body{
+	font-family: Open Sans;
+	background-color: rgb(34,103,137);
+	text-align: center;
+}
+#title {
+	font-weight:  bold;
+}
+
+#Main {
+	background-color: rgb(250, 250, 250);
+	margin: 0 auto;
+	border-radius: 4px;
+	width: 75%;
+	max-width: 900px;
+	padding: 10px;
+	padding-top: 20px;
+}
