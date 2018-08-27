@@ -19,3 +19,7 @@ html,body{
 	padding: 10px;
 	padding-top: 20px;
 }
+.left-column {
+	float : left;
+	width: 500px;
+}
