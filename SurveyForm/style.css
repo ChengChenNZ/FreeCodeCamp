@@ -1,25 +1,100 @@
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-html,body{
-	font-family: Open Sans;
-	background-color: rgb(34,103,137);
-	text-align: center;
+body {  
+  font-family: 'Raleway', Helvetica, sans-serif;
+  background-color: #a9d7d1; 
 }
+
+p {
+  padding: 0 0; 
+  margin: 0 auto; 
+}
+
 #title {
-	font-weight:  bold;
+  text-align: center; 
 }
 
-#Main {
-	background-color: rgb(250, 250, 250);
-	margin: 0 auto;
-	border-radius: 4px;
-	width: 75%;
-	max-width: 900px;
-	padding: 10px;
-	padding-top: 20px;
+#description {
+  text-align: center; 
 }
+
+#main {
+  background-color: #eee; 
+  border-radius: 10px; 
+  margin: auto;
+  padding: 1%; 
+  width: 75vw; 
+  height: 110vh; 
+}
+
 .left-column {
-	float : left;
-	width: 500px;
+  display: block; 
+  float: left; 
+  padding: 1% 0; 
+  text-align: right; 
+  width: 49%; 
 }
+
+.right-column {
+  display: block; 
+  float: right;  
+  text-align: left; 
+  width: 49%; 
+}
+
+.right-column input {
+  line-height: 25px; 
+  width: 80%;  
+}
+
+.right-column select {
+  background-color: #fff; 
+  height: 2.5em; 
+  width: 10em; 
+}
+
+.row {
+  padding: 35px 0;
+}
+
+.right-column .radio-btn {
+  display: inline; 
+  width: 2%; 
+}
+
+.right-column .checkbox {
+  display: inline; 
+  width: 2%; 
+}
+
+#btn-row {
+  display: block;
+  padding: 100px; 
+}
+
+#submit {
+  background-color: #758AB6; 
+  border-radius: 5px; 
+  color: #fff; 
+  height: 40px; 
+  margin: 0 45%;
+  width: 80px; 
+}
+
+
+@media (max-width: 550px) { 
+  
+ .left-column {
+    padding: 5px 0; 
+    text-align: left; 
+    width: 100%; 
+  }
+
+  .right-column {
+    padding: 5px 0;
+    width: 100%; 
+  }
+  
+  .row {
+    padding: 40px 0;
+  }
+}
+
