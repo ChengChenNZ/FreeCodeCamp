@@ -1,0 +1,45 @@
+html body {
+	font-family: Helvetica, Arial, Monospace;
+	font-size: 18px;
+	margin:0;
+	padding:0;
+	background: white;
+	height: 100%;
+}
+
+main {
+	margin-left: 320px;
+}
+
+nav {
+	position: fixed;
+	background-color: lightgrey;
+	width: 250px;
+	top: 0;
+	bottom:0;
+	left: 0;
+}
+
+nav header {
+	text-align: center;
+}
+
+nav a {
+	display: block;
+	padding:20px;
+	font-size: 20px;
+}
+a:link, a:hover, a:visited, a:active {
+	text-decoration: none;
+	color: black;
+}
+a: hover {
+	background: red;
+}
+
+header {
+	font-size: 26px;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin: 10px;
+}
