@@ -43,3 +43,64 @@ header {
 	font-family: sans-serif;
 	margin: 10px;
 }
+code {
+	font-family: Inconsolate;
+	font-size: 14px;
+}
+.container {
+	background-color: lightgrey;
+	padding:20px;
+	box-shadow: inset 0px 0px 3px #888;
+	border-radius: 3px;
+}
+section {
+
+}
+
+input, label {
+	display: none;
+}
+
+@media only screen and (max-width: 700px){
+	nav label {
+		position:fixed;
+		display:block;
+		top:0;
+		right:0;
+		height:40px;
+		width:40px;
+		text-align:center;
+		line-height:40px;
+		font-size:30px;
+		cursor:pointer;
+	}
+	nav{
+		position:fixed;
+		height:40px;
+		width:100%;
+	}
+	nav header {
+		height:40px;
+		padding:0;
+		line-height:40px;
+		margin:0;
+	}
+	.links {
+		display:none;
+		background:lightgrey;
+		text-align:center;
+	}
+	main {
+		position:absolute;
+		overflow:auto;
+		height:calc(100% - 45px);
+		margin:45px 0 0 20px;
+		z-index:-1;
+	}
+	main section {
+		margin-right:20px;
+	}
+	#toggle:checked + .links {
+		display:block;
+	}
+}
